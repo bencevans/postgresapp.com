@@ -1,17 +1,18 @@
 - content_for :header do
   .hero-unit
-    %hgroup
-      %h1 Postgres.app
-      %h2 the easiest way to run PostgreSQL on the Mac
-
-    %button.download{:onclick => "window.location.href='/download'"}
-      %mark.symbol ⬇
-      %span Download the Latest Version
-      %small Requires Mac OS X 10.7 or higher
-
-    .errata
-      %span.postgres-version Postgres 9.2.2
-      %span.mac-os-x-version Requires Mac OS X 10.7 or above
+    .container
+      %hgroup
+        %h1 Postgres.app
+        %h2 the easiest way to run PostgreSQL on the Mac
+  
+      %button.download{:onclick => "window.location.href='/download'"}
+        %mark.symbol ⬇
+        %span Download the Latest Version
+        %small Requires Mac OS X 10.7 or higher
+  
+      .errata
+        %span.postgres-version Postgres 9.2.2
+        %span.mac-os-x-version Requires Mac OS X 10.7 or above
   
 
 %section#installation
